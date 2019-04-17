@@ -8,13 +8,13 @@ struct nodeType
 	nodeType* next;
 };
 
-void createList(nodeType*& first, nodeType*& last);
+//void createList(nodeType*& first, nodeType*& last);
 void displayList(nodeType*& first);
 void displayListReverse(nodeType*& last);
 void insertNode(nodeType*& first, nodeType*& last, int num);
 void deleteNode(nodeType*& first, nodeType*& last, int num);
 
-int main()
+int main() 
 {
 	nodeType* first,* last;
 	char letter;
